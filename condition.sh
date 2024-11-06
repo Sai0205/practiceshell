@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $(u -id) -ne 0 ]
+if [ $(id -u) -ne 0 ]
 then  
     echo "please run with root user"
     exit 1
